@@ -1,0 +1,139 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF- 8">
+ <meta name="viewport" content="width=devic-width" initial-scale="1.0">
+ <title>Home page</title>
+ </head>
+ <style>
+ body{
+ margin:0px;
+ padding:0px;
+ }
+ .navbar{
+ margin:auto;
+ padding:0px;
+ display:flex;
+ justify-content:space-between;
+  }
+  .navbarul{
+   list-style-type:none;
+   width:100%;
+   background-color:rgb(121,118,118);
+   padding:0px;
+   margin:0px;
+   overflow:hidden;
+  }
+  .navbara{
+   text-decoration:none;
+   color:white;
+   display:block;
+   text-align:center;
+   padding:15px;
+  }
+  .navbara:hover{
+   background-color:rgb(32,16,16);
+  }
+  .navbarli{
+   float:right;
+  }
+  
+  
+  .donorinfo{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  }
+  .donorinfoimg{
+  width:400px;
+  height:300px;
+  margin:100px;
+  padding:10px;
+  border-radius:13px;
+  box-shadow:0px0px10pxblack;
+  cursor:pointer;
+  transition:0.15s;
+  }
+  .donorinfoimg:hover{
+  filter:brightness(1);
+  transform:scale(1.03);
+  }
+  .deh3{
+   margin-left:355px;
+   margin-top:-70px;
+   font-size:25px;
+  }
+  .heh3{
+   margin-left:985px;
+   margin-top:-60px;
+   font-size:25px;
+  }
+  .donorinfos{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  }
+  .donorinfosimg{
+  width:400px;
+  height:300px;
+  margin:100px;
+  padding:3px;
+  border-radius:13px;
+  box-shadow:0px0px10pxblack;
+  cursor:pointer;
+  transition:0.15s;
+  }
+  .donorinfosimg:hover{
+  filter:brightness(1);
+  transform:scale(1.03);
+  }
+  .desh3{
+   margin-left:340px;
+   margin-top:-70px;
+   font-size:25px;
+  }
+  .hesh3{
+   margin-left:935px;
+   margin-top:-60px;
+   font-size:25px;
+  }
+  
+ </style>
+ <body>
+  
+  <navclass="navbar">
+   <ul>
+    <li><ahref="logingit.html">Logout</a></li>
+    <li><ahref="aboutus.html">AboutUs</a></li>
+    <li><ahref="searchbloodbankgit.html">Bloodbanks</a></li>
+    <li><ahref="request.html">Request</a></li>
+    <li><ahref="">Home</a></li>
+   </ul>
+  </nav>
+  <divclass="main">
+  <imgsrc="blood6.jpg"width="100%">
+ </div>
+  <divclass="donorinfo">
+   <ahref="postdongit.html"><imgsrc="pdi.jpg" ></a>
+   <ahref="mydongit.html"><imgsrc="mydon.jpg"></a>
+  </div>
+  <divclass="de">
+<h3>Post Donor Info</h3>
+ </div>
+ <div class="he">
+ <h3>My Donor Info</h3>
+ </div>
+ <div class="donorinfos">
+ <a href="searchdongit.html"><img src="sd.jpg"></a>
+ <a href="searchbloodbankgit.html"><img src="bloodbank.jpg" ></a>
+ </div>
+ <div class="des">
+ <h3>Search donar details</h3>
+ </div>
+ <div class="hes">
+ <h3>Search Blood bank details</h3>
+ </div>
+ </body>
+ </html>
